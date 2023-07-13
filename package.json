@@ -13,6 +13,9 @@
     "next": "^13.4.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-slideshow-image": "^4.2.1",
     "tw-elements": "^1.0.0-beta2",
     "zod": "^3.21.4"
   },
