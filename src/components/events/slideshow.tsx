@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import Link from "next/link";
 
 const slideshow = () => {
     const images = [ 
@@ -11,12 +12,14 @@ const slideshow = () => {
 
     return (
 		<div>
-			<Carousel showThumbs={false} autoPlay>
+			<Carousel showThumbs={false} autoPlay infiniteLoop>
 				{images.map((each, index) => (
-					<div key={index} className="">
-						<img
-							src={each} width={300} height={300}
-						/>
+					<div key={index}>
+                        <Link href='/' passHref className='flex'>
+                            <img
+                                src={each}
+                            />
+                        </Link>
 					</div>
 				))}
 			</Carousel>

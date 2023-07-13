@@ -17,7 +17,7 @@ const navbar = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="#">
-                <h2 className="text-2xl body-font font-montserrat font-bold">EventBuzz</h2>
+                <h2 className="text-3xl body-font font-montserrat font-bold">EventBuzz</h2>
               </a>
               <div className="md:hidden">
                 <button
@@ -64,12 +64,12 @@ const navbar = () => {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="font-montserrat">
+                <li className="font-montserrat text-xl">
                   <Link href="/" legacyBehavior>
                     <a>Create Events</a>
                   </Link>
                 </li>
-                <li className="font-montserrat font-bold">
+                <li className="font-montserrat font-bold text-xl">
                   <Link href="/" legacyBehavior>
                     <a>Sign In</a>
                   </Link>
