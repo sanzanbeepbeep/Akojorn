@@ -2,7 +2,8 @@ type EventitemProps = {
     id: number,
     name: string,
     place: string,
-    date: string,
+    datestart: string,
+    dateend: string,
     time: string,
     image: string, //Path
     featured: boolean,
@@ -10,7 +11,7 @@ type EventitemProps = {
 }
 
 
-export function Eventcard({ id, name, place, date, time, image, featured, tag }:EventitemProps){
+export function Eventcard({ id, name, place, datestart, dateend, time, image, featured, tag }:EventitemProps){
     return (
         <div>
             <img src={image}></img>
