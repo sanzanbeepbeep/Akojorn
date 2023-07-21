@@ -4,7 +4,3 @@ export interface EventitemProps{
     date : string,
     image: string,
 }
-
-export interface monthlyeventProps{
-    setCurrentMonth: (currentMonth: number) => void;
-}
