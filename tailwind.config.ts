@@ -8,6 +8,9 @@ export default {
         'montserrat': ['Montserrat', 'sans-serif'],
         'kanit': ['Kanit', 'sans-serif']
       },
+      screens:{
+        'xs': '320px'
+      }
     },
   },
   plugins: [],
