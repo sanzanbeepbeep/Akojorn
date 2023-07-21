@@ -10,7 +10,7 @@ const Next = ({}) => {
     const [current, setCurrent] = useState(0);
 
     return (
-        <div className="flex justify-between p-8">
+        <div className="flex justify-around p-4 ">
         <div className="flex text-xl font-montserrat font-bold items-center">
             <button onClick={()=>setCurrent((current-1+12)%12)}><MaterialSymbolsArrowBackIosNew></MaterialSymbolsArrowBackIosNew></button>
             <div className="text-xl font-montserrat pl-2">{ArrayMonth[((current-1+12)%12)]}</div>
