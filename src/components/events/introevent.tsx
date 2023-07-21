@@ -13,7 +13,7 @@ const introevent = () => {
                     <h1 className='mb-1'>your fingertips.</h1>
                 </div>
                 <div className='text-xl text-white font-montserrat font-normal lg:pt-10'>
-                    <p>discover online and offline events at EventBuzz.</p>
+                    <p>discover online and offline events at EventBud.</p>
                 </div>
             </div>
             <div className='w-2/5 ml-6'>
