@@ -55,6 +55,34 @@ const Signup = ({}) => {
                                         <input className="border-2 border-gray-300 rounded-md pl-2 w-full py-1" type="text" placeholder=""></input>
                                     </form>
                                 </div>
+                                <div className="flex flex-row w-full justify-between">
+                                    <div className="flex flex-row w-2/5">
+                                    <p className="font-montserrat">First Name</p>
+                                    <span className="text-red-600 ml-1">*</span>
+                                    </div>
+                                    <div>
+                                    <p className="font-montserrat text-gray-500 text-xs translate-y-1.5">as it appears on ID card or passport</p>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col">
+                                    <form className="flex">
+                                        <input className="border-2 border-gray-300 rounded-md pl-2 w-full py-1" type="text" placeholder=""></input>
+                                    </form>
+                                </div>
+                                <div className="flex flex-row w-full justify-between">
+                                    <div className="flex flex-row w-2/5">
+                                    <p className="font-montserrat">Last Name</p>
+                                    <span className="text-red-600 ml-1">*</span>
+                                    </div>
+                                <div>
+                                    <p className="font-montserrat text-gray-500 text-xs translate-y-1.5">as it appears on ID card or passport</p>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col">
+                                    <form className="flex">
+                                        <input className="border-2 border-gray-300 rounded-md pl-2 w-full py-1" type="text" placeholder=""></input>
+                                    </form>
+                                </div>
                             </div>
                             <form>
                                 <button className="bg-white hover:bg-black hover:text-white border-2 border-black duration-300 text-black font-bold py-2 w-full rounded mt-10" type="submit">Log in</button>
