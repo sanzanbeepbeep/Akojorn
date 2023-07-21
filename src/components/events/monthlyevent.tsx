@@ -132,6 +132,7 @@ const ArrayMonth = [
     'JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'
 ]
 
+
 const monthlyevent = () => {
 
   const [current, setCurrent] = useState(0);
