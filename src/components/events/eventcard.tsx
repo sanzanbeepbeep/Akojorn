@@ -2,6 +2,7 @@ import React from 'react';
 import { EventitemProps } from './eventitem';
 
 const Card: React.FC<EventitemProps> = ({ date,name,place,image}) => {
+
   return (
     <div className="flex flex-col justify-center items-center p-2">
         <img src={image} alt="event" className="rounded-md bg-contain mb-2 bg-white shadow-lg w-2/4"/>
